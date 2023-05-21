@@ -1,0 +1,301 @@
+html{
+    font-size: 10px;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    color: white;
+    /* display: inline-block; */
+    /* border: solid black 5px ; */
+    /* height: 60px; */
+    /* border: green 2px solid; */
+    /* max-width: 1000px; */
+    width: 100vw;
+    margin: 0px auto;
+    background-color: rgb(27, 39, 27);
+    height: 10rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.bar {
+    /* position: absolute;
+    left: 79%;
+    bottom: 93%;
+    /* border-bottom: black solid 5px;  */
+    /* border: red 2px solid; */
+    float: right;
+    margin: 4.1rem 15.5rem 4.1rem 1.5rem;
+}
+
+.wt {
+    /* /* border: solid blue 2px; 
+    
+    display: inline-block;
+    position: absolute;
+    bottom: 93%;
+    font-size: 25px;
+    left: 2%; */
+    /* border: blue 2px solid; */
+    float: left;
+    margin: 3.25rem 1.5rem 3.25rem 15.5rem;
+    font-size: 3rem;
+}
+
+.clearfix {
+    /* content: "";
+    display: block; */
+    clear: both;
+}
+
+.bar li {
+    /* border: solid rgb(179, 255, 0) 2px;  */
+    display: inline-block;
+    margin: 0 1rem;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.bar a:hover {
+    color: rgb(204, 85, 85);
+    text-decoration: underline;
+}
+
+.contactm {
+    background-color: #ddd;
+    width: 100vw;
+    height: 60rem;
+}
+
+.con1 {
+    /* border: solid black 2px; */
+    width: 30%;
+    float: left;
+    height: 47rem;
+    margin-left: 18.5%;
+    margin-top: 5rem;
+    background-color: #eaeaea;
+    box-shadow: 1rem 1rem 2rem 0 #aaa ;
+}
+
+.con2 {
+    /* border: solid black 2px; */
+    width: 30%;
+    float: right;
+    height: 47rem;
+    margin-right: 18.5%;
+    margin-top: 5rem;
+    padding: 0.5rem;
+    background-color: #eaeaea;
+    box-shadow: 1rem 1rem 2rem 0 #aaa ;
+}
+
+.con2 h1 {
+
+    border-bottom: 0.5rem solid rgb(204, 85, 85);
+    padding-bottom: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: revert;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.2rem;
+    margin-bottom: 2rem;
+    color: rgb(78, 78, 78);
+    font-size: 2.4rem;
+}
+
+.form {
+    /* border: solid black 2px; */
+    max-width: 95%;
+    height: 45rem;
+    margin: 0 2.5%;
+    color: rgb(78, 78, 78);
+    border-color: rgb(78, 78, 78);
+}
+
+.in {
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    background-color: #eaeaea;
+    /* border-color: blue; */
+
+}
+
+.element {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    /* display: block; */
+    /* padding: 10px; */
+    font-size: 1.6rem;
+}
+
+.message {
+    width: 100%;
+    height: 17rem;
+    background-color: #eaeaea;
+    margin-top: 0.5rem;
+}
+
+.submit {
+    /* margin: 10px; */
+    border: rgb(204, 85, 85) solid 0.2rem;
+    color: #eaeaea;
+    background-color: rgb(204, 85, 85);
+    letter-spacing: 0.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.8rem 2.5rem;
+    /* border-radius: 20px; */
+    font-weight: 800;
+    display: block;
+    margin: 0.5rem auto 0 auto;
+}
+
+/* .last{
+    color:rgb(204, 85, 85) ;
+    padding: 15px 7px 7.5px 15px;
+} */
+.con1 h3 {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1rem;
+    color: rgb(78, 78, 78);
+    font-weight: bold;
+font-size: 2rem;
+
+}
+
+.con1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    padding: 0rem 0rem 1rem 1.5rem;
+    font-size: smaller;
+    font-weight: 600;
+    color: rgb(78, 78, 78);
+    font-size: 1.33rem;
+}
+
+.fa-2x {
+
+    color: rgb(204, 85, 85);
+    padding: 0.6rem 0.7rem 0.65rem 1.5rem;
+    font-size: 2.5rem;
+}
+.company{
+    width: 100%;
+    height: 60%;
+}
+
+
+
+
+
+@media (min-width:812px) and (max-width:1220px){
+    html{
+        font-size: 8px;
+      }
+    nav{
+        max-width: 100vw;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .wt{
+        margin: 26px 12px 26px 124px;
+    }
+    .bar{
+        margin: 32.8px 124px 32.8px 12px;
+    }
+    .con2{
+        height: 48.5rem;
+    }
+    .contactm{
+        height: 65rem;
+    }
+}
+
+@media (min-width:541px) and (max-width:811px){
+    /* html{
+        font-size: 8px;
+      } */
+    nav{
+        /* max-width: 100vw; */
+        width: 100vw;
+        margin: 0 auto;
+        height: 100px;
+        /* font-size: 10px; */
+    }
+    .wt{
+        margin: 3.25rem 1.5rem 3.25rem 7.5rem;
+
+        font-size: 30px;
+    }
+    .bar{
+        margin: 4.1rem 7.5rem 4.1rem 1.5rem;
+    }
+     .bar a{
+        font-size: 15px;
+    } 
+    .con2{
+        margin-right: 10.5%;
+        width: 37%;
+    }
+    .con1{
+        margin-left: 10.5%;
+        width: 37%;
+    }
+    .last{
+        height: 30px;
+    }
+}
+
+
+@media (max-width:540px){
+    html{
+        font-size: 8px;
+    }
+    .con1,.con2{
+        float: none;
+        max-width: 100vw;
+        width: 75%;
+        margin: 5rem auto;
+        height: 50rem;
+    }
+    .nav{
+        height: 15rem;
+    }
+    .bar , .wt{
+        float: none;
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+    nav{
+        height: 12rem;
+    }
+    .wt{
+        padding: 2rem 0;
+        margin-right: 1.5rem;
+        letter-spacing: 5px;
+    }
+    .contactm{
+        height:107rem;
+       
+    }
+    body{
+        background-color: #ddd;
+    }
+    
+}

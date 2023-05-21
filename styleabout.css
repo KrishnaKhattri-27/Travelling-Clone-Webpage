@@ -1,0 +1,520 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 10px;
+}
+h1{
+    font-size: 2.4rem;
+}
+p{
+    font-size: 1.6rem;
+}
+ul li{
+    font-size: 1.6rem;
+}
+nav {
+    color: white;
+    /* display: inline-block; */
+    /* border: solid black 5px ; */
+    /* height: 60px; */
+    /* border: green 2px solid; */
+    /* max-width: 1000px; */
+    width: 100vw;
+    margin: 0px auto;
+    background-color: rgb(27, 39, 27);
+    height: 10rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.bar {
+    /* position: absolute;
+    left: 79%;
+    bottom: 93%;
+    /* border-bottom: black solid 5px;  */
+    /* border: red 2px solid; */
+    float: right;
+    margin: 4.1rem 15.5rem 4.1rem 1.5rem;
+}
+
+.wt {
+    /* /* border: solid blue 2px; 
+    
+    display: inline-block;
+    position: absolute;
+    bottom: 93%;
+    font-size: 25px;
+    left: 2%; */
+    /* border: blue 2px solid; */
+    float: left;
+    margin: 3.25rem 1.5rem 3.25rem 15.5rem;
+    font-size: 3rem;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.bar li {
+    /* border: solid rgb(179, 255, 0) 2px;  */
+    display: inline-block;
+    margin: 0 1rem;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.aboutmain {
+    /* width: 310px; */
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    max-width: 97rem;
+    width: 78.08%;
+    margin: 5rem auto 0px auto;
+}
+
+.aboutmain h1 {
+    border-bottom: 0.5rem solid rgb(204, 85, 85);
+    padding-bottom: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: revert;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.2rem;
+     /* font-size: 2.5rem; */
+}
+
+.aboutmain p {
+    padding: 2rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.1rem;
+    /* border: solid rgb(39, 2, 138) 2px; */
+    color: rgb(92, 89, 89);
+}
+
+.list1 {
+    /* border: black 2px solid; */
+    /* margin: 50px; */
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.list2 {
+    /* border: solid black 2px; */
+    /* margin: 50px; */
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.hello {
+    /* border: solid red 2px; */
+    /* width: ; */
+    /* padding: 100px; */
+    height: 10.5rem;
+}
+
+.hello ul {
+    text-align: center;
+    padding: 0 13.7rem;
+    list-style: disc;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1rem;
+    color: rgb(98, 98, 98);
+    font-weight: 600;
+
+    /* list-style: disc; */
+}
+
+.hello ul li {
+    padding: 0.5rem;
+}
+
+.man {
+    /* border: solid red 2px; */
+    /* width: ; */
+    /* padding: 100px; */
+    height: 7.5rem;
+    max-width: 97rem;
+    width: 78.08%;
+    margin: 0px auto;
+}
+
+.man section {
+    /* border: solid black 2px; */
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.man section h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(204, 85, 85);
+    font-size: x-large;
+}
+
+.man section p {
+    text-align: center;
+    /* margin-top: 5px; */
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2rem;
+    color: rgb(70, 70, 70);
+    font-weight: 900;
+    font-size: medium;
+}
+
+.footabout {
+    /* border: 2px solid green; */
+    height: 7.5rem;
+    max-width: 97rem;
+    width: 78.08%;
+    margin: 0px auto;
+    box-shadow: 1rem 1rem 3rem 0 #aaa;
+}
+
+.fabout1 {
+    /* border: 2px black solid; */
+    float: left;
+    width: 70%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(204, 85, 85);
+    color: white;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.1rem;
+    padding: 2.5rem 2rem;
+    font-weight: 600;
+}
+
+.fabout2 {
+    /* border: 2px black solid; */
+    float: right;
+    width: 30%;
+    height: 100%;
+    /* position: relative; */
+    background-color: rgb(204, 85, 85);
+
+}
+
+.fabout2 h1 {
+    border: 0.3rem white solid;
+    /* margin: 5px; */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    font-size: xx-large;
+    letter-spacing: 0.3rem;
+    word-spacing: 0.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 1.25rem;
+
+    color: white;
+
+}
+
+.fabout2 a:hover {
+    color: rgb(204, 85, 85);
+    background-color: white;
+}
+
+.bar a:hover {
+    color: rgb(204, 85, 85);
+    text-decoration: underline;
+}
+
+
+
+
+@media (min-width:812px) and (max-width:1220px){
+    html{
+        font-size: 8px;
+    }
+    /* .hello{
+        margin-bottom: 7rem;
+    } */
+    /* .list1,.list2{
+        float: none;
+    }*/
+    .fabout2 h1{
+        font-size: 2.5rem;
+        margin: 1.9rem;
+    }
+    .hello ul{
+        padding: 0 0 0 8.5rem;
+    }
+    .hello ul li{
+        text-align: left;
+    }
+} 
+
+
+@media (min-width:535px) and (max-width:811px){
+    .hello{
+        margin-bottom: 0.8rem;
+    }
+    .hello ul{
+        padding: 0 1rem;
+    }
+    .hello ul li{
+        text-align: left;
+        font-size: 1.2rem;
+    }
+    .fabout1 p{
+        font-size: 1.4rem;
+    }
+    .fabout2 h1{
+        font-size: 2rem;
+        margin: 2rem 1rem 2rem 1rem;
+        padding: 0.1rem;
+    }
+    .fabout1{
+        padding: 2rem 0 2rem 1rem;
+        width: 60%;
+    }
+    .fabout2{
+        width: 40%;
+    }
+    .wt{
+        margin: 3.25rem 1.5rem 3.25rem 7.5rem;
+    }
+    .bar{
+        margin: 4.1rem 7.5rem 4.1rem 1.5rem;
+    }
+}
+
+
+@media (min-width:355px) and (max-width:534px){
+    html{
+        font-size: 8px;
+    }
+    .nav{
+        height: 15rem;
+    }
+    .bar , .wt{
+        float: none;
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+    nav{
+        height: 12rem;
+        width: 100vw;
+    }
+    .wt{
+        padding: 2rem 0;
+        margin-right: 1.5rem;
+        letter-spacing: 5px;
+    }
+    .list1,.list2{
+        float: none;
+        width: 100%;
+        height: 100%;
+    }
+    .hello ul{
+        padding: 0 2.5rem;
+    }
+    .hello ul li{
+        padding: 2rem 0;
+        text-align: left;
+    }
+    .hello{
+        height: 17.5rem;
+        margin-bottom: 20rem;
+    }
+    /* .man{
+        height: 12rem;
+    } */
+    .man section{
+        float: none;
+        margin: 5rem auto;
+        width: 100%;
+    }
+    .bh1{
+        height: 50rem;
+    }
+    .man section h1{
+        text-align: center;
+        font-size: 3.4rem;
+    }
+    .man section p{
+        text-align: center;
+        font-size: 2.4rem;
+    }
+    .footabout{
+        height: 15rem;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    .fabout1,.fabout2{
+        float: none;
+        width: 100%;
+        height: 8rem;
+    }
+    .fabout2 h1{
+        margin: 0 20%;
+        font-size: 3rem;
+    }
+}
+
+@media (min-width:268px) and (max-width:354px){
+    html{
+        font-size: 8px;
+    }
+    .nav{
+        height: 15rem;
+    }
+    .bar , .wt{
+        float: none;
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+    nav{
+        height: 12rem;
+        width: 100vw;
+    }
+    .wt{
+        padding: 2rem 0;
+        margin-right: 1.5rem;
+        letter-spacing: 5px;
+    }
+    .list1,.list2{
+        float: none;
+        width: 100%;
+        height: 100%;
+    }
+    .hello ul{
+        padding: 0 2.5rem;
+    }
+    .hello ul li{
+        padding: 2rem 0;
+        text-align: left;
+    }
+    .hello{
+        height: 17.5rem;
+        margin-bottom: 20rem;
+    }
+    /* .man{
+        height: 12rem;
+    } */
+    .man section{
+        float: none;
+        margin: 5rem auto;
+        width: 100%;
+    }
+    .bh1{
+        height: 50rem;
+    }
+    .man section h1{
+        text-align: center;
+        font-size: 3.4rem;
+    }
+    .man section p{
+        text-align: center;
+        font-size: 2.4rem;
+    }
+    .footabout{
+        height: 15rem;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    .fabout1,.fabout2{
+        float: none;
+        width: 100%;
+        height: 8rem;
+    }
+    .fabout2 h1{
+        margin: 0 15%;
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:267px){
+    html{
+        font-size: 8px;
+    }
+    .nav{
+        height: 15rem;
+    }
+    .bar , .wt{
+        float: none;
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+    nav{
+        height: 12rem;
+        width: 100vw;
+    }
+    .wt{
+        padding: 2rem 0;
+        margin-right: 1.5rem;
+        letter-spacing: 5px;
+    }
+    .list1,.list2{
+        float: none;
+        width: 100%;
+        height: 100%;
+    }
+    .hello ul{
+        padding: 0 2.5rem;
+    }
+    .hello ul li{
+        padding: 2rem 0;
+        text-align: left;
+    }
+    .hello{
+        height: 17.5rem;
+        margin-bottom: 20rem;
+    }
+    /* .man{
+        height: 12rem;
+    } */
+    .man section{
+        float: none;
+        margin: 5rem auto;
+        width: 100%;
+    }
+    .bh1{
+        height: 50rem;
+    }
+    .man section h1{
+        text-align: center;
+        font-size: 3.4rem;
+    }
+    .man section p{
+        text-align: center;
+        font-size: 2.4rem;
+    }
+    .footabout{
+        height: 15rem;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    .fabout1,.fabout2{
+        float: none;
+        width: 100%;
+        height: 8rem;
+    }
+    .fabout2 h1{
+        margin: 0 10%;
+        font-size: 2rem;
+    }
+}
